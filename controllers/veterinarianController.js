@@ -1,5 +1,5 @@
 import Veterinarian from "../models/Veterinarian.js"
-import generateJwt from "../helpers/generateJWT.js"
+import generateJwt from "../helpers/generateJwt.js"
 import generateId from "../helpers/generateId.js"
 import emailRegister from "../helpers/emailRegister.js"
 import emailResetPassword from "../helpers/emailResetPassword.js"
