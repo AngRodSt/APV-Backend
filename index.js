@@ -31,8 +31,8 @@ app.use(cors(corsConfig));
 app.use('/api/veterinarian', veterinarianRoutes )
 app.use('/api/patient', patientRoutes )
 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 4001
 
-app.listen(4000, ()=>{
+app.listen(4001, ()=>{
     console.log(`Servidor funcionando en el puerto ${PORT}`)
 })
